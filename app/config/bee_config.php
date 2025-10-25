@@ -44,3 +44,20 @@ define('IMAGES',ASSETS.'images/');
 define('JS',ASSETS.'js/');
 define('PLUGINS',ASSETS.'plugins/');
 define('UPLOADS',ASSETS.'uploads/');
+
+//Credenciales de la base de datos
+//Set para conexión local o desarrollo
+define('L_DB_ENGINE','mysql');
+define('L_DB_HOST','localhost');
+define('L_DB_NAME','u4_p1_db');
+define('L_DB_USER','root');
+define('L_DB_PASS','');
+define('L_DB_CHARSET','utf8');
+
+//Set para conexión en producción o servidor local
+define('DB_ENGINE','mysql');
+define('DB_HOST','localhost');
+define('DB_NAME','__REMOTE DB__');
+define('DB_USER','__REMOTE DB__');
+define('DB_PASS','__REMOTE DB__');
+define('DB_CHARSET','__REMOTE CHARSET__');
